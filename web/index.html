@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+    </head>
+        <form action="FormularioServlet" method="post">
+            <br><br>
+            <div style="text-align: center;"> 
+            <h1>FORMULARIO DE REGISTRO</h1>
+            </div>
+            <br>
+            <table border="1" align="center" bordercolor="#3a57af">
+                <thead>
+                    <tr>
+                        <th colspan="2" bgcolor= "#3a57af" style="color:#FFFFFF">CREAR UNA CUENTA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="top-row">
+                                <div class="field-wrap">
+                                    <label>
+                                        <span class="req"> </span>
+                                    </label>
+                                    <input type="text" required autocomplete="off" placeholder="Nombre" name="nombre"/>
+                                </div>
+                        </td>
+                        <td>
+                            <div class="field-wrap">
+                                <label>
+                                    <span class="req"> </span>
+                                </label>
+                                <input type="text" required autocomplete="off" placeholder="Apellido" name="apellido"/>
+                            </div> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="field-wrap">
+                                <label>
+                                   <span class="req"> </span>
+                                </label>
+                                <input type="text" required autocomplete="off" size="50" placeholder="Correo Electrónico" name="correo" />
+                            </div> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="field-wrap">
+                                <label>
+                                    <span class="req"> </span>
+                                </label>
+                                <input type="text" required autocomplete="off" placeholder="Usuario" name="usuario"/>
+                            </div> 
+                        </td>
+                        <td>
+                            <div class="field-wrap">
+                                <label>
+                                    <span class="req"> </span>
+                                </label>
+                                <input type="password" required autocomplete="off" placeholder="Contraseña" name="contrasena"/>
+                            </div> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div class="field-wrap">
+                                <label>
+                                    <span class="req"> </span>
+                                </label>
+                                <input type="text" required autocomplete="off" size="50" placeholder="Teléfono" name="telefono"/>
+                            </div> 
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="text-align: center;">
+                <br><br>
+                <input type="submit" value="Registrar" class="boton">
+                <br>
+                <p>¿Ya tienes una cuenta?</p>
+            </div>
+        </form>
+    </body>
+</html>
